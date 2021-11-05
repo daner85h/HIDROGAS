@@ -16,6 +16,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('nosotros', function () {
+    return view('nosotros');
+});
+
+Route::get('/servicios', function () {
+    return view('servicios2');
+});
+
+
 /*
 Route::get('/empleado', function () {
     return view('empleado.index');
